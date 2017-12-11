@@ -1,0 +1,15 @@
+"Who are the business sponsors that donated $1000 or more?"
+Select Spo_Bus_Name from Sponsor
+where Spo_Package='gold';
+
+"Who are all the volunteers and ther contact info?"
+Select V_F_Name, V_L_Name, V_Phone_Number from Volunteer;
+
+"How many volunteers are needed in total and how much money is needed?"
+Select_P_Name, Count(P_Volunt_Needed) from Project where P_Volunt_Needed is not null;
+
+"How many tools of each type do we have available?"
+Select Tool_Description, Count(T_Description) from Tools where T_ID is not null;
+
+"What stuff/supplies do we have available?"
+Select Stu_Descr from Stuff where Stu_ID is not null;
