@@ -1,29 +1,71 @@
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code, DR_ID, Physical Limitation, Limitation_ID)
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
 
-Insert into Volunteer 
-(V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
-Values (1, 'Dodie', 'Ocheltree', '3009 Star Drive', '2515469442', 'small', 
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (1, 'Dodie', 'Ocheltree', '3009 Star Drive', '2515469442', 'small', 1, 1, 'vegetarian', 1, '32308')
 
-Insert into Volunteer Values (2, 'Chelsey', 'Thor', '30 trek Avenue', '32307', '8505464478', 'corrypeda@gmail.com', 'xl', 1, 1, 1, 0, 1 )
-Insert into Volunteer Values (3, 'Lu', 'Waldron', '608 Stockert Hollow Road', '32308', '9495694478', 'large', 1, 1, 8 )
-Insert into Volunteer Values (4, 'Shane', 'Courtols', '3901 Kenwood Place', '32317', '8504468851', 'sc12@my.fsu.edu', 'xl', 1, 1, )
-Insert into Volunteer Values (5, 'Myrta', 'Sneller', '2477 Kerry Way', '32304', '2269062721', 'medium', 1, 1, )
-Insert into Volunteer Values (6, 'Eldora', 'Earnhardt', '4037 Harry Place', '32310', '8509251352', 'elluddagad-3182@yopmail.com', 'large', 1, 1, )
-Insert into Volunteer Values (7, 'Trinh', 'Timlin', '4715 Timber Ridge Rd', '32304', '8503549608', 'small', 1, 1, )
-Insert into Volunteer Values (8, 'Jerrell', 'Hebron', '2926 Kelley Rd', '32302', '8506275374', 'fido@aol.com', 1, 1, 5, )
-Insert into Volunteer Values (9, 'Willis', 'Im', '562 Angels Dr', '32301', 'willis8468@aol.com', '2xl', 1, 1,  )
-Insert into Volunteer Values (10, 'Ernie', 'Dimery', '213 East 1st Street', '32310', '8508393213', 'jesejegyc-5304@gmail.com', 'large', 1, 1, )
-Insert into Volunteer Values (11, 'Emmaline', 'Caton', '2477 Kerry Forrest Pkwy', '32301', '8503586085', 'caton155@yahoo.com', '2xl', 1, 1, )
-Insert into Volunteer Values (12, 'Patti', 'Daugherty', '707 7th Avenue, apt 7', '32305', '9209323887', 'medium', 1, 1, )
-Insert into Volunteer Values (13, 'Niesha', 'Banister', '2191 7th Avenue', '32304', '8502478474', 'iffecuxapp-9346@gmail.com', 'medium', 1, 1, 6 )
-Insert into Volunteer Values (14, 'Burton', 'Tarr', '213 4th Street', '32308', '8505755409',  'xl', 1, 1, )
-Insert into Volunteer Values (15, 'Athena', 'Barefield', '98232 Gulfport', '32308', '8843564332', 'lummogi@comcast' 'large', 1, 1, )
-Insert into Volunteer Values (16, 'Vonda', 'Rempe', '4033 Belmont Terrace', '32317', '8502437205', 'rempe@doc.gov' 'small', 1, 1, 7, )
-Insert into Volunteer Values (17, 'Edythe', 'Barger', '28012 Western Ave', '32316', '8507563548', 'large', 1, 1, )
-Insert into Volunteer Values (18, 'Kirstie', 'Spahr', '35903 Gardenia Drive', '32301', '9128864358', 'small', 1, 1, )
-Insert into Volunteer Values (19, 'Lindsay', 'Dawson', '14 Bridgeport Trail', '32312', 'ldawson44@gmail.com', '2xl', 1, 1, )
-Insert into Volunteer Values (20, 'Gert', 'Ohern', '19405 SE 6th St', '32316', '8501230868', 'large', 1, 1, 4 )
-Insert into Volunteer Values (21, 'Orlando', 'Caton', '2477 Kerry Forrest Pkwy', '32301', '8502116127', 'caton154@yahoo.com', 'xl', 1, 1, )
-Insert into Volunteer Values (22, 'Patti', 'Schillinger', '2962 August Lane', '32305', 'patti@aol.com', 'medium', 1, 1, )
-Insert into Volunteer Values (23, 'Bobby', 'Thor', '30 Trek Ave', '32307', '8505464478', 'ThorBobby@gmail.com', 'small', 1, 1, 9 )
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (2, 'Chelsey', 'Thor', '30 trek Avenue', '8505464478', 'corrypeda@gmail.com', 'xl', 1, 1, 2, '32307')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (3, 'Lu', 'Waldron', '608 Stockert Hollow Road', '9495694478', 'large', 1, 1, 8, '32308')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (4, 'Shane', 'Courtols', '3901 Kenwood Place', '8504468851', 'sc12@my.fsu.edu', 'xl', 1, 3, '32317')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (5, 'Myrta', 'Sneller', '2477 Kerry Way', '2269062721', 'medium', 1, 1, 4, '32304')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (6, 'Eldora', 'Earnhardt', '4037 Harry Place', '8509251352', 'elluddagad-3182@yopmail.com', 'large', 1, 1, 'Gluten Free', 5, '32310')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (7, 'Trinh', 'Timlin', '4715 Timber Ridge Rd', '8503549608', 'small', 1, 1, 'Kosher', 6, '32304')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (8, 'Jerrell', 'Hebron', '2926 Kelley Rd', '8506275374', 'fido@aol.com', '2xl', 1, 1, 5, '32302')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (9, 'Willis', 'Im', '562 Angels Dr', 'willis8468@aol.com', 'large', 1, 1, 7, '32301')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (10, 'Ernie', 'Dimery', '213 East 1st Street', '8508393213', 'jesejegyc-5304@gmail.com', '2xl', 1, 1, 'vegetarian', 8, '32310')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (11, 'Emmaline', 'Caton', '2477 Kerry Forrest Pkwy', '8503586085', 'caton155@yahoo.com', 'medium', 1, 1, 9, '32301')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (12, 'Patti', 'Daugherty', '707 7th Avenue, apt 7', '9209323887', 'medium', 1, 1, 10, '32305')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (13, 'Niesha', 'Banister', '2191 7th Avenue', '8502478474', 'iffecuxapp-9346@gmail.com', 'xl', 1, 1, 6, '32304')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (14, 'Burton', 'Tarr', '213 4th Street', '8505755409',  'large', 1, 1, 11, '32308')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, P_ID, Zip_Code)
+Values (15, 'Athena', 'Barefield', '98232 Gulfport', '8843564332', 'lummogi@comcast' 'small', 1, 1, 'cannot walk long distances', 12, '32304')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (16, 'Vonda', 'Rempe', '4033 Belmont Terrace', '8502437205', 'rempe@doc.gov' 'large', 1, 1, 7, '32317')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (17, 'Edythe', 'Barger', '28012 Western Ave', '8507563548', 'small', 1, 1, 13, '32316')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (18, 'Kirstie', 'Spahr', '35903 Gardenia Drive', '9128864358', '2xl', 1, 1, 'Gluten Free', 14, '32301')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, P_ID, Zip_Code)
+Values (19, 'Lindsay', 'Dawson', '14 Bridgeport Trail', 'ldawson44@gmail.com', 'large', 1, 1, 'Wears hearing aids', 15, '32312')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (20, 'Gert', 'Ohern', '19405 SE 6th St', '8501230868', 'large', 1, 1, 4, '32316')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (21, 'Orlando', 'Caton', '2477 Kerry Forrest Pkwy', '8502116127', 'caton154@yahoo.com', 'xl', 1, 1, 16, '32301')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Values (22, 'Patti', 'Schillinger', '2962 August Lane', 'patti@aol.com', 'medium', 1, 1, 'Vegetarian', 17, '32305')
+
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
+Values (23, 'Bobby', 'Thor', '30 Trek Ave', '8505464478', 'ThorBobby@gmail.com', 'small', 1, 1, 9, '32307')
