@@ -1,0 +1,5 @@
+Insert into Dietary_Restrictions Values (1, 'Vegetarian', 'Cannot eat meat')
+Insert into Dietary_Restrictions Values (2, 'Peanut', 'Cannot eat peanuts')
+Insert into Dietary_Restrictions Values (3, 'Kosher', 'Cannot eat non Kosher food')
+Insert into Dietary_Restrictions Values (4, 'Halaal', 'Cannot eat non Halaal food' )
+Insert into Dietary_Restrictions Values (5, 'Gluten Free', 'Cannot eat Gluten')
