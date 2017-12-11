@@ -55,7 +55,7 @@ Values (17, 'Edythe', 'Barger', '28012 Western Ave', '8507563548', 'small', 1, 1
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restrictions, P_ID, Zip_Code)
 Values (18, 'Kirstie', 'Spahr', '35903 Gardenia Drive', '9128864358', '2xl', 1, 1, 'Gluten Free', 14, '32301')
 
-Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, P_ID, Zip_Code)
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limitation, P_ID, Zip_Code)
 Values (19, 'Lindsay', 'Dawson', '14 Bridgeport Trail', 'ldawson44@gmail.com', 'large', 1, 1, 'Wears hearing aids', 15, '32312')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
