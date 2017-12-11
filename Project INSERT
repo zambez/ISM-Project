@@ -1,0 +1,25 @@
+Insert into Project
+Values (1, 'Soup Kitchen', 'Clean up kitchen, prep and cook food, serve during volunteer participation hours (8:30am-12:30pm)', 'Michelle', 'Perez', 1, 'United Way is providing the kitchen, food, and equipment. We will be providing the funds to purchase the necessary ingredients', 10, 1000, '307 E 7th Ave', 'DATE', '32303', '!!!MISSING CONTACT!')
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (2, 'Damayan Garden Project', 'Work with children and community residents to maintain the gardens, including planting, watering, and harvesting. This agency reaches out to the community and uses gardens to teach nutritional and environmental education', 'Samantha', 'Rittenhouse', 2, 'Tools needed:rake, shovel, wheelbarrow, fertilizer, soil, seeds, hose/water, gloves. The program has some equipment available, but is limited', 'French Town', 'DATE','32304', 1 )
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (3, 'Tally Cleanup', 'Beautification of Tallahassee's Parks', 'Jackson', 'Garnett', 3, 'Tools needed: chain saw, trash bags, rake, shovel, mulch, gloves, first aid kit, trash grabbers', 20, 'parks(?)', 'DATE', 32304, 2)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Date, Zip_Code, Contact_ID)
+Values (4, 'Stone Crab Festival', 'Grill Crab, side dishes, serve food, serve beverages, collect payment', 'Jackson', 'Garnett', 4, 'Table in front collecting payments and then an assembly line moving down the line getting different side dishes, the crab, and finally a beverage at the end. Those working the grill should be comfortable grilling. Need to be there from 8:30am-12:30pm to set up and take down', 'DATE',32303, 3)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (5, 'Operation Pumpkin Patch', 'Move 500 pumpkins to the church and arrange them to make a pumpkin patch (about 5 miles)', 'Rachael', 'Hornbeck', 5, 'Volunteers will need large vehicles, preferably trucks or vans. Should be able to lift up to 30 pounds at a time for distances up to 30 feet. Need to provide own gloves', 5, 'St. Thomas Moore Church', 'DATE', '32304', 4)
+Insert into Project
+Values (6, 'Head Start Help Day', 'Volunteers needed to assist with painting and cleaning up the Center, as well as organizing food and toy inventories', 'Trista', 'Reeves', 6, 'The Center has painting and cleaning supplies, but it is recommended for volunteers to wear older clothing that can get dirty. And bring paint masks', 15, 500, 'Early Head Start Center', 'DATE', 32304, 5)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (7, 'CROP Hunger Walk', 'To join or sponsor Good News Outreach's super volunteer of the year as he/she walks to raise funds and food for those in hunger', 'Rebekah', 'Cammuse', 19, 'No tools required, however, it is recommended to wear tennis shoes and workout clothes as volunteers will be doing a moderate amount of physical activity', 'Lake Ella', 'DATE'
+32308, 6)
+Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (8, 'Deb's Helper', 'Clean Kennels at animal shelter', 'Alena', 'Harding',7 , 'Must be at least 16 years old. Must be able to work independently. Must be able to stand for long periods of time. Must be able to physically handle animals that weigh at least 35lbs. Must be able to bend, squat, and kneel with no issue', 4, '1125 Eastwood Dr', 'DATE', 32304, 7)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (9, 'A Day at Ronald McDonald House', 'Lending a helping hand to the Ronald Mcdonald House and its residing families', 'Nick', 'Williams', 4, 'Make beds, clean rooms, general maintenance, mowing, weed-eating. All supplies and equipment will be provided', 8, '712 East 7th Avenue', 'DATE', 32303, 8 )
