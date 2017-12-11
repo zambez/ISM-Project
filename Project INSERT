@@ -23,3 +23,27 @@ Values (8, 'Deb's Helper', 'Clean Kennels at animal shelter', 'Alena', 'Harding'
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (9, 'A Day at Ronald McDonald House', 'Lending a helping hand to the Ronald Mcdonald House and its residing families', 'Nick', 'Williams', 4, 'Make beds, clean rooms, general maintenance, mowing, weed-eating. All supplies and equipment will be provided', 8, '712 East 7th Avenue', 'DATE', 32303, 8 )
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (10, 'Tallahassee Memorial Healthcare Toy Drive', 'Collect toys throughout the month for children at Tallahassee Memorial Healthcare. On the day of the event volunteers will help entertain patients by distributing toys, hosting crafts, and passing out snacks', 'Jain', 'Flores', 8, 'Take place between 9pm and 1pm. Sort through donations provided before distributing toys to children and wrap each gift. 3 volunteers needed to carry 30+ lbs. Volunteers should be 18 or older and must bring atleast 2 toys', 10, '1300 Miccosukee Road', 'DATE', 32308, 9)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (11, 'Alzheimer's Project', 'Clean up of the facility. Repaint rooms. Add new decorations to the area to assist with the upkeep and hominess', 'Ashley', 'Scarry', 9, 'Tools Needed: paint brushes, drop cloths, wood cleaner, art for walls', '302 East Tharpe St', 'DATE', '32303', 10)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (12, 'Shelter Support', 'Cleaning Kennels, feeding animals, laundry and dishes, assist with adoption, kennel and shelter upkeep', 'Josh', 'Guedj', 7, 'Must be atleast 16 years old and able to work independently. Must be able to stand for long periods of time and handle animals that weigh atleast 35lb. Be able to bend, squat, kneel with no issue', '1125 Eastwood Dr', 'DATE', '32311',11)
+Insert into Project
+Values (13, 'Clean up the Rez', 'Pick up trash', 'Angela', 'Longton', 10, 'No tools required. Each volunteer provided two trash bags and may choose to wear gloves and/or face mask. Wear closed toed shoes, use provided sanitizing wipes before lunch. Equipment needs 30 trash bags, 15 face masks, 5 boxes of wipes, notebook, pen, scale', 15, 250, 'FSU Reservation', 'DATE', '32304', 12)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (14, 'Homework Help', 'Tutoring and mentoring children ages 5 through 18. Activities at the club include homework help, outside play and crafts', 'Jared', 'Ocala', 11, 'Must be atleast 16 years old, help with homework, assist  with crafts, watch children while they play outdoors', 15, '311 1st Street SE', 'DATE', 32333, 13)
+Insert into Project
+(P_ID, P_Name, P_Decrip, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (15, 'Tallahassee Museum Maintenance Day', 'Cleaning animal habitats, planting new trees and flowers, cutting weeds and feeding otters', 12, 'Wear closed toes shoes, Gardening gloves and sunscreen, all other tools will be provided', '3945 Museum Dr', 'DATE', '32303', 14)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (16, 'Dog Wash', 'Washing dogs for Humane Society to help keep their animals clean and healthy', 'Emily', 'Spiteri', 13, 'No tools required. Must be able to lift 50 lbs. Must be able to stand, sit, or squat for several hours', 'Tallahassee', 'DATE', '32312', 15)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (17, 'Planting Smiles', 'Create new and renovate existing gardens', 'Spencer', 'Silverman', 14, 'No tools required. Shovels, gloves, and plants will be provided', '3207 N Monroe St', 'DATE', '32303', 16)
+Insert into Project 
