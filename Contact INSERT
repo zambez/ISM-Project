@@ -39,3 +39,4 @@ Insert into Contact Values (37, 'Andrew', 'Bennet', '8507557621', 'Andrew@cprmob
 Insert into Contact Values (38, 'Shawn', 'Bailey', '8502239080', 'Shawn@gordos.com')
 Insert into Contact Values (39, 'Jennifer', 'Boone', '8506096754', 'Jboone@tacospeak.com')
 Insert into Contact Values (40, 'David', 'Bowser', '8507023223', 'DavidBowser@outlook.com')
+Insert into Contact Vlaues (41, 'Paige', 'Ali', '6785765768', 'paigeali@gmail.com')
