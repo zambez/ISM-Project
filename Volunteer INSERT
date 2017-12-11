@@ -44,10 +44,10 @@ Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Ts
 Values (14, 'Burton', 'Tarr', '213 4th Street', '8505755409',  'large', 1, 1, 11, '32308')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, P_ID, Zip_Code)
-Values (15, 'Athena', 'Barefield', '98232 Gulfport', '8843564332', 'lummogi@comcast' 'small', 1, 1, 'cannot walk long distances', 12, '32304')
+Values (15, 'Athena', 'Barefield', '98232 Gulfport', '8843564332', 'lummogi@comcast', 'small', 1, 1, 'cannot walk long distances', 12, '32304')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
-Values (16, 'Vonda', 'Rempe', '4033 Belmont Terrace', '8502437205', 'rempe@doc.gov' 'large', 1, 1, 7, '32317')
+Values (16, 'Vonda', 'Rempe', '4033 Belmont Terrace', '8502437205', 'rempe@doc.gov', 'large', 1, 1, 7, '32317')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
 Values (17, 'Edythe', 'Barger', '28012 Western Ave', '8507563548', 'small', 1, 1, 13, '32316')
