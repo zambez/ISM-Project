@@ -2,10 +2,10 @@ Insert into Project
 Values (1, 'Soup Kitchen', 'Clean up kitchen, prep and cook food, serve during volunteer participation hours (8:30am-12:30pm)', 'Michelle', 'Perez', 1, 'United Way is providing the kitchen, food, and equipment. We will be providing the funds to purchase the necessary ingredients', 10, 1000, '307 E 7th Ave', '03/30/2018', '32303', 41)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (2, 'Damayan Garden Project', 'Work with children and community residents to maintain the gardens, including planting, watering, and harvesting. This agency reaches out to the community and uses gardens to teach nutritional and environmental education', 'Samantha', 'Rittenhouse', 2, 'Tools needed:rake, shovel, wheelbarrow, fertilizer, soil, seeds, hose/water, gloves. The program has some equipment available, but is limited', 'French Town', '03/30/2018','32304', 1 )
+Values (2, 'Damayan Garden Project', 'Work with children and community residents to maintain the gardens, including planting, watering, and harvesting.', 'Samantha', 'Rittenhouse', 2, 'Tools needed:rake, shovel, wheelbarrow, fertilizer, soil, seeds, hose/water, gloves. The program has some equipment available, but is limited', 'French Town', '03/30/2018','32304', 1 )
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (3, 'Tally Cleanup', 'Beautification of Tallahassees Parks', 'Jackson', 'Garnett', 3, 'Tools needed: chain saw, trash bags, rake, shovel, mulch, gloves, first aid kit, trash grabbers', 20, 'parks(?)', '03/30/2018', '32304', 2)
+Values (3, 'Tally Cleanup', 'Beautification of Tallahassees Parks', 'Jackson', 'Garnett', 3, 'Tools needed chain saw, trash bags, rake, shovel, mulch, gloves, first aid kit, trash grabbers', 20, 'parks', '03/30/2018', '32304', 2)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Date, Zip_Code, Contact_ID)
 Values (4, 'Stone Crab Festival', 'Grill Crab, side dishes, serve food, serve beverages, collect payment', 'Jackson', 'Garnett', 4, 'Table in front collecting payments and then an assembly line moving down the line getting different side dishes, the crab, and finally a beverage at the end. Those working the grill should be comfortable grilling. Need to be there from 8:30am-12:30pm to set up and take down', '03/30/2018', '32303', 3)
@@ -32,7 +32,7 @@ Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (12, 'Shelter Support', 'Cleaning Kennels, feeding animals, laundry and dishes, assist with adoption, kennel and shelter upkeep', 'Josh', 'Guedj', 7, 'Must be atleast 16 years old and able to work independently. Must be able to stand for long periods of time and handle animals that weigh atleast 35lb. Be able to bend, squat, kneel with no issue', '1125 Eastwood Dr', '03/30/2018', '32311',11)
 Insert into Project
-Values (13, 'Clean up the Rez', 'Pick up trash', 'Angela', 'Longton', 10, 'No tools required. Each volunteer provided two trash bags and may choose to wear gloves and/or face mask. Wear closed toed shoes, use provided sanitizing wipes before lunch. Equipment needs 30 trash bags, 15 face masks, 5 boxes of wipes, notebook, pen, scale', 15, 250, 'FSU Reservation', '03/30/2018', '32304', 12)
+Values (13, 'Clean up the Rez', 'Pick up trash', 'Angela', 'Longton', 10, 'No tools required. Each volunteer provided two trash bags and may choose to wear gloves and/or face mask.', 15, 250, 'FSU Reservation', '03/30/2018', '32304', 12)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (14, 'Homework Help', 'Tutoring and mentoring children ages 5 through 18. Activities at the club include homework help, outside play and crafts', 'Jared', 'Ocala', 11, 'Must be atleast 16 years old, help with homework, assist  with crafts, watch children while they play outdoors', '311 1st Street SE', '03/30/2018', '32333', 13)
@@ -44,7 +44,7 @@ Insert into Project
 Values (16, 'Dog Wash', 'Washing dogs for Humane Society to help keep their animals clean and healthy', 'Emily', 'Spiteri', 13, 'No tools required. Must be able to lift 50 lbs. Must be able to stand, sit, or squat for several hours', 'Tallahassee', '03/30/2018', '32312', 15)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (17, 'Planting Smiles', 'Create new and renovate existing gardens', 'Spencer', 'Silverman', 14, 'No tools required. Shovels, gloves, and plants will be provided', '3207 N Monroe St', 'DATE', '32303', 16)
+Values (17, 'Planting Smiles', 'Create new and renovate existing gardens', 'Spencer', 'Silverman', 14, 'No tools required. Shovels, gloves, and plants will be provided', '3207 N Monroe St', '03/30/2018', '32303', 16)
 Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (18, 'Kearney Center Benefit Meal', 'Assist in making meals for sale and donation for the benefit of the Kearney Center Homeless Shelter', 'Heath', 'Fulmer', 5, 'No tools required. All utensils will be provided. Basic cooking skills desired but not required. Prep, cook, and package meals', 20, 'St Thomas Moore Church', '03/30/2018', '32304', 17)
 Insert into Project
