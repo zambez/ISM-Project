@@ -16,8 +16,7 @@ Insert into Project
 Values (6, 'Head Start Help Day', 'Volunteers needed to assist with painting and cleaning up the Center, as well as organizing food and toy inventories', 'Trista', 'Reeves', 6, 'The Center has painting and cleaning supplies, but it is recommended for volunteers to wear older clothing that can get dirty. And bring paint masks', 15, 500, 'Early Head Start Center', '03/30/2018', '32304', 5)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (7, 'CROP Hunger Walk', 'To join or sponsor Good News Outreachs super volunteer of the year as he/she walks to raise funds and food for those in hunger', 'Rebekah', 'Cammuse', 19, 'No tools required, however, it is recommended to wear tennis shoes and workout clothes as volunteers will be doing a moderate amount of physical activity', 'Lake Ella', '03/30/2018'
-32308, 6)
+Values (7, 'CROP Hunger Walk', 'To join or sponsor Good News Outreachs super volunteer of the year as he/she walks to raise funds and food for those in hunger', 'Rebekah', 'Cammuse', 19, 'No tools required, however, it is recommended to wear tennis shoes and workout clothes as volunteers will be doing a moderate amount of physical activity', 'Lake Ella', '03/30/2018', '32308', 6)
 Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (8, 'Debs Helper', 'Clean Kennels at animal shelter', 'Alena', 'Harding',7 , 'Must be at least 16 years old. Must be able to work independently. Must be able to stand for long periods of time. Must be able to physically handle animals that weigh at least 35lbs. Must be able to bend, squat, and kneel with no issue', 4, '1125 Eastwood Dr', '03/30/2018', '32304', 7)
 Insert into Project
