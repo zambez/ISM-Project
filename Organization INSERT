@@ -16,3 +16,4 @@ Insert into Organization Values (15, 'Big Bend Homeless Coalition', '2729 W Pens
 Insert into Organization Values (16, 'Florida Association of Food Banks', '200 W College Ave #124', 0, '32301')
 Insert into Organization Values (17, 'Red Cross', '115 Easterwood Dr', 0, '32311')
 Insert into Organization Values (18, 'Nature Conservancy', '236 E 5th Ave', 1, '32303')
+Insert into Organization Values (19, 'Good News Outreach', '347 Office Plaza Dr', 0, '32301')
