@@ -35,7 +35,7 @@ Insert into Project
 Values (13, 'Clean up the Rez', 'Pick up trash', 'Angela', 'Longton', 10, 'No tools required. Each volunteer provided two trash bags and may choose to wear gloves and/or face mask. Wear closed toed shoes, use provided sanitizing wipes before lunch. Equipment needs 30 trash bags, 15 face masks, 5 boxes of wipes, notebook, pen, scale', 15, 250, 'FSU Reservation', '03/30/2018', '32304', 12)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (14, 'Homework Help', 'Tutoring and mentoring children ages 5 through 18. Activities at the club include homework help, outside play and crafts', 'Jared', 'Ocala', 11, 'Must be atleast 16 years old, help with homework, assist  with crafts, watch children while they play outdoors', 15, '311 1st Street SE', '03/30/2018', '32333', 13)
+Values (14, 'Homework Help', 'Tutoring and mentoring children ages 5 through 18. Activities at the club include homework help, outside play and crafts', 'Jared', 'Ocala', 11, 'Must be atleast 16 years old, help with homework, assist  with crafts, watch children while they play outdoors', '311 1st Street SE', '03/30/2018', '32333', 13)
 Insert into Project
 (P_ID, P_Name, P_Decrip, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (15, 'Tallahassee Museum Maintenance Day', 'Cleaning animal habitats, planting new trees and flowers, cutting weeds and feeding otters', 12, 'Wear closed toes shoes, Gardening gloves and sunscreen, all other tools will be provided', '3945 Museum Dr', '03/30/2018', '32303', 14)
