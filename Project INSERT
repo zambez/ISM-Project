@@ -46,7 +46,6 @@ Values (16, 'Dog Wash', 'Washing dogs for Humane Society to help keep their anim
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (17, 'Planting Smiles', 'Create new and renovate existing gardens', 'Spencer', 'Silverman', 14, 'No tools required. Shovels, gloves, and plants will be provided', '3207 N Monroe St', 'DATE', '32303', 16)
-Insert into Project
 Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (18, 'Kearney Center Benefit Meal', 'Assist in making meals for sale and donation for the benefit of the Kearney Center Homeless Shelter', 'Heath', 'Fulmer', 5, 'No tools required. All utensils will be provided. Basic cooking skills desired but not required. Prep, cook, and package meals', 20, 'St Thomas Moore Church', 'DATE', 32304, 17)
 Insert into Project
