@@ -1,7 +1,7 @@
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code, DR_ID, Physical Limitation, Limitation_ID)
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
 
-Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restriction, P_ID, Zip_Code)
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, Dietary_Restrictions, P_ID, Zip_Code)
 Values (1, 'Dodie', 'Ocheltree', '3009 Star Drive', '2515469442', 'small', 1, 1, 'vegetarian', 1, '32308')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
@@ -10,8 +10,8 @@ Values (2, 'Chelsey', 'Thor', '30 trek Avenue', '8505464478', 'corrypeda@gmail.c
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
 Values (3, 'Lu', 'Waldron', '608 Stockert Hollow Road', '9495694478', 'large', 1, 1, 8, '32308')
 
-Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, Dietary_Restriction, P_ID, Zip_Code)
-Values (4, 'Shane', 'Courtols', '3901 Kenwood Place', '8504468851', 'sc12@my.fsu.edu', 'xl', 1, 3, '32317')
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
+Values (4, 'Shane', 'Courtols', '3901 Kenwood Place', '8504468851', 'sc12@my.fsu.edu', 'xl', 1, 1, 3, '32317')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
 Values (5, 'Myrta', 'Sneller', '2477 Kerry Way', '2269062721', 'medium', 1, 1, 4, '32304')
