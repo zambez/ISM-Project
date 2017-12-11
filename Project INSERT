@@ -1,5 +1,5 @@
 Insert into Project
-Values (1, 'Soup Kitchen', 'Clean up kitchen, prep and cook food, serve during volunteer participation hours (8:30am-12:30pm)', 'Michelle', 'Perez', 1, 'United Way is providing the kitchen, food, and equipment. We will be providing the funds to purchase the necessary ingredients', 10, 1000, '307 E 7th Ave', '03/30/2018', '32303', 1)
+Values (1, 'Soup Kitchen', 'Clean up kitchen, prep and cook food, serve during volunteer participation hours (8:30am-12:30pm)', 'Michelle', 'Perez', 1, 'United Way is providing the kitchen, food, and equipment. We will be providing the funds to purchase the necessary ingredients', 10, 1000, '307 E 7th Ave', '03/30/2018', '32303', 21)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (2, 'Damayan Garden Project', 'Work with children and community residents to maintain the gardens, including planting, watering, and harvesting. This agency reaches out to the community and uses gardens to teach nutritional and environmental education', 'Samantha', 'Rittenhouse', 2, 'Tools needed:rake, shovel, wheelbarrow, fertilizer, soil, seeds, hose/water, gloves. The program has some equipment available, but is limited', 'French Town', '03/30/2018','32304', 1 )
