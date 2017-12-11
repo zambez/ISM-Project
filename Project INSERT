@@ -51,7 +51,7 @@ Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P
 Values (18, 'Kearney Center Benefit Meal', 'Assist in making meals for sale and donation for the benefit of the Kearney Center Homeless Shelter', 'Heath', 'Fulmer', 5, 'No tools required. All utensils will be provided. Basic cooking skills desired but not required. Prep, cook, and package meals', 20, 'St Thomas Moore Church', 'DATE', 32304, 17)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
-Values (19, 'Paint the World, 'Spend quality time with underprivileged kids working on various art projects and taking them outside to have fun while getting physcial activity', 'Dylan','Silver', 15, 'Need art supplies like paint brushes, origami paper, paint, crayons, colored pencils, markers, drawing paper', 'Hope Community', 'DATE', '32303', 18)
+Values (19, 'Paint the World', 'Spend quality time with underprivileged kids working on various art projects and taking them outside to have fun while getting physcial activity', 'Dylan','Silver', 15, 'Need art supplies like paint brushes, origami paper, paint, crayons, colored pencils, markers, drawing paper', 'Hope Community', 'DATE', '32303', 18)
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (20, 'Food Drive for the Hungry and Hurricane Relief', 'Move food into trucks and drive to airport', 'Felipe', 'Glustak', 16, 'No tools required. Wheelbarrow, dolly, tables or large bins to put food on. Need drivers to transport food to airport', 10, 'Tallahassee Civic Center', 'DATE', '32304', 19)
