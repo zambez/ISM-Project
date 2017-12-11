@@ -43,7 +43,7 @@ Values (13, 'Niesha', 'Banister', '2191 7th Avenue', '8502478474', 'iffecuxapp-9
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
 Values (14, 'Burton', 'Tarr', '213 4th Street', '8505755409',  'large', 1, 1, 11, '32308')
 
-Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limtation, P_ID, Zip_Code)
+Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, Physical_Limitation, P_ID, Zip_Code)
 Values (15, 'Athena', 'Barefield', '98232 Gulfport', '8843564332', 'lummogi@comcast', 'small', 1, 1, 'cannot walk long distances', 12, '32304')
 
 Insert into Volunteer (V_ID, V_F_Name, V_L_Name, V_Address, V_Phone_Number, V_Email, V_Tshirt, V_Confidentiality, V_Liability, P_ID, Zip_Code)
