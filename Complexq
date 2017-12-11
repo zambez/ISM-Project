@@ -1,10 +1,10 @@
-"What stuff do we need from project where ID = 3?"
+"What stuff and how many volunteers do we need for the Shelter Support project?"
 
-Select P_Name, Stu_Descr
+Select P_Volunt_Needed, Stu_Descr
 From Project 
 Join Stuff_Project on Project.P_ID=Stuff_Project.P_ID
 Join Stuff on Stuff.Stu_ID=Stuff_Project.Stu_ID
-Where P_ID = 3
+Where P_Name = 'Shelter support'
 
 "Whats the contact information and organization address of Spo_ID 8?" 
 Select O_Address, Contact_ID
@@ -13,3 +13,27 @@ Join Zip on Sponsor.Spo_ID=Zip.Spo_ID
 Join Organization on Organization.O_ID=Zip.O_ID
 Where Spo_ID = 8
 
+Which projects require more than 10000 and how many shirts and tools are need for each 
+Select P_Name, Count(V_Tshirt), Count(T_Description),
+From Volunteer
+Join Volunteer_Tool on Volunteer.V_ID=Volunteer_Tool.V_ID
+Join Tool on Tool.T_ID=Volunteer_Tool.T_ID
+Join Project_Tool on Tool.Tool_ID=Project_Tool.Tool_ID
+Join Project on Project_Tool.P_ID=Project.P_ID
+Where P_Money_Needed > 1000
+
+Which businesses's sponsor projects that need at least $500 and how many volunteers are needed for those projects
+Select Spo_Bus_Name, P_Volunt_Needed
+From Project
+Join Project_Sponsor on Project.P_ID=Project_Sponsor.P_ID
+Join Sponsor on Project_Sponsor.Spo_ID=Sponsor.Spo_ID
+Where P_Money_Needed > 500
+
+How many volunteers have Dietary Restrictions and how many tools are needed that work on a project that need more than 5 volunteers
+Select Count(Dietary_Restrictions), Count(T_ID)
+From Volunteer
+Join Volunteer_Tool on Volunteer.V_ID=Volunteer_Tool.V_ID
+Join Tool on Tool.T_ID=Volunteer_Tool.T_ID
+Join Project_Tool on Tool.Tool_ID=Project_Tool.Tool_ID
+Join Project on Project_Tool.P_ID=Project.P_ID
+Where P_Money_Needed > 1000
