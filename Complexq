@@ -36,4 +36,4 @@ Join Volunteer_Tool on Volunteer.V_ID=Volunteer_Tool.V_ID
 Join Tool on Tool.T_ID=Volunteer_Tool.T_ID
 Join Project_Tool on Tool.Tool_ID=Project_Tool.Tool_ID
 Join Project on Project_Tool.P_ID=Project.P_ID
-Where P_Money_Needed > 1000
+Where P_Volunt_Needed > 5
