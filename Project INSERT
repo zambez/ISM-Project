@@ -46,4 +46,15 @@ Values (16, 'Dog Wash', 'Washing dogs for Humane Society to help keep their anim
 Insert into Project
 (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
 Values (17, 'Planting Smiles', 'Create new and renovate existing gardens', 'Spencer', 'Silverman', 14, 'No tools required. Shovels, gloves, and plants will be provided', '3207 N Monroe St', 'DATE', '32303', 16)
-Insert into Project 
+Insert into Project
+Insert into Project (P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (18, 'Kearney Center Benefit Meal', 'Assist in making meals for sale and donation for the benefit of the Kearney Center Homeless Shelter', 'Heath', 'Fulmer', 5, 'No tools required. All utensils will be provided. Basic cooking skills desired but not required. Prep, cook, and package meals', 20, 'St Thomas Moore Church', 'DATE', 32304, 17)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (19, 'Paint the World, 'Spend quality time with underprivileged kids working on various art projects and taking them outside to have fun while getting physcial activity', 'Dylan','Silver', 15, 'Need art supplies like paint brushes, origami paper, paint, crayons, colored pencils, markers, drawing paper', 'Hope Community', 'DATE', '32303', 18)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, P_Man_L_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (20, 'Food Drive for the Hungry and Hurricane Relief', 'Move food into trucks and drive to airport', 'Felipe', 'Glustak', 16, 'No tools required. Wheelbarrow, dolly, tables or large bins to put food on. Need drivers to transport food to airport', 10, 'Tallahassee Civic Center', 'DATE', '32304', 19)
+Insert into Project
+(P_ID, P_Name, P_Decrip, P_Man_F_Name, O_ID, P_Logist, P_Volunt_Needed, P_Location_Address, P_Date, Zip_Code, Contact_ID)
+Values (21, 'Tallahassee Nature Preserve Clean Up', 'Pick up trash within the Preserve especially along the path where there is alot of trash. remove invasive plants', 'Dr. Deb', 18, 'No tools required, recommended to wear gloves and rain boots as the area could be muddy if it rained recently', 10, 'Wakulla Springs National Park', 'DATE', '32304', 20 )
